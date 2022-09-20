@@ -14,6 +14,11 @@
 		3F73D9FC28D39AFD009C7393 /* NotasFinalCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F73D9FA28D39AFD009C7393 /* NotasFinalCore.xcdatamodeld */; };
 		3F73D9FE28D39B00009C7393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F73D9FD28D39B00009C7393 /* Assets.xcassets */; };
 		3F73DA0128D39B00009C7393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F73D9FF28D39B00009C7393 /* LaunchScreen.storyboard */; };
+		3F73DA0928D3AAF0009C7393 /* ViewControllerSegundaPantalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F73DA0828D3AAF0009C7393 /* ViewControllerSegundaPantalla.swift */; };
+		3F9D9C1D28D8BD0E00FA74F4 /* NotasAgregar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D9C1C28D8BD0E00FA74F4 /* NotasAgregar.swift */; };
+		3F9D9C2028D8BD3700FA74F4 /* Notas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D9C1E28D8BD3700FA74F4 /* Notas+CoreDataClass.swift */; };
+		3F9D9C2128D8BD3700FA74F4 /* Notas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D9C1F28D8BD3700FA74F4 /* Notas+CoreDataProperties.swift */; };
+		3F9D9C2328D9075C00FA74F4 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D9C2228D9075C00FA74F4 /* Modelo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		3F73D9FD28D39B00009C7393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F73DA0028D39B00009C7393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F73DA0228D39B00009C7393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F73DA0828D3AAF0009C7393 /* ViewControllerSegundaPantalla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSegundaPantalla.swift; sourceTree = "<group>"; };
+		3F9D9C1C28D8BD0E00FA74F4 /* NotasAgregar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasAgregar.swift; sourceTree = "<group>"; };
+		3F9D9C1E28D8BD3700FA74F4 /* Notas+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notas+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F9D9C1F28D8BD3700FA74F4 /* Notas+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notas+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F9D9C2228D9075C00FA74F4 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,9 @@
 		3F73D9E528D39AFD009C7393 = {
 			isa = PBXGroup;
 			children = (
+				3F9D9C2228D9075C00FA74F4 /* Modelo.swift */,
+				3F9D9C1E28D8BD3700FA74F4 /* Notas+CoreDataClass.swift */,
+				3F9D9C1F28D8BD3700FA74F4 /* Notas+CoreDataProperties.swift */,
 				3F73D9F028D39AFD009C7393 /* NotasFinalCore */,
 				3F73D9EF28D39AFD009C7393 /* Products */,
 			);
@@ -66,6 +79,8 @@
 				3F73D9FF28D39B00009C7393 /* LaunchScreen.storyboard */,
 				3F73DA0228D39B00009C7393 /* Info.plist */,
 				3F73D9FA28D39AFD009C7393 /* NotasFinalCore.xcdatamodeld */,
+				3F73DA0828D3AAF0009C7393 /* ViewControllerSegundaPantalla.swift */,
+				3F9D9C1C28D8BD0E00FA74F4 /* NotasAgregar.swift */,
 			);
 			path = NotasFinalCore;
 			sourceTree = "<group>";
@@ -142,9 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F73D9F628D39AFD009C7393 /* ViewController.swift in Sources */,
+				3F9D9C2128D8BD3700FA74F4 /* Notas+CoreDataProperties.swift in Sources */,
+				3F73DA0928D3AAF0009C7393 /* ViewControllerSegundaPantalla.swift in Sources */,
 				3F73D9F228D39AFD009C7393 /* AppDelegate.swift in Sources */,
+				3F9D9C2028D8BD3700FA74F4 /* Notas+CoreDataClass.swift in Sources */,
 				3F73D9F428D39AFD009C7393 /* SceneDelegate.swift in Sources */,
+				3F9D9C2328D9075C00FA74F4 /* Modelo.swift in Sources */,
 				3F73D9FC28D39AFD009C7393 /* NotasFinalCore.xcdatamodeld in Sources */,
+				3F9D9C1D28D8BD0E00FA74F4 /* NotasAgregar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
