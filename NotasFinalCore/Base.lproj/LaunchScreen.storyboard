@@ -15,19 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ficm" translatesAutoresizingMaskIntoConstraints="NO" id="00w-uh-Nzz">
-                                <rect key="frame" x="0.0" y="281" width="390" height="283"/>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="1" green="0.80688224829999999" blue="0.87105056079999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="00w-uh-Nzz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PLm-OL-vXo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="00w-uh-Nzz" secondAttribute="trailing" id="Tja-bn-25d"/>
-                            <constraint firstItem="00w-uh-Nzz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="234" id="YdL-7x-DdV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="00w-uh-Nzz" secondAttribute="bottom" constant="246" id="zOW-fS-CEN"/>
-                        </constraints>
+                        <color key="backgroundColor" red="1" green="0.80688224832410449" blue="0.87105056076824816" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -35,7 +24,4 @@
             <point key="canvasLocation" x="52.307692307692307" y="374.64454976303318"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="ficm" width="500" height="500"/>
-    </resources>
 </document>
